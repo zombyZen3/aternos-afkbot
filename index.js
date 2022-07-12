@@ -1,3 +1,4 @@
+do {
 const mineflayer = require('mineflayer')
 const fs = require('fs');
 let rawdata = fs.readFileSync('config.json');
@@ -57,3 +58,4 @@ bot.on('spawn',function() {
     connected=1;
 });
 
+} while (true)
