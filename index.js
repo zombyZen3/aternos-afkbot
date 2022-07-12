@@ -58,4 +58,4 @@ bot.on('spawn',function() {
     connected=1;
 });
 
-} while (true)
+} while (true);
