@@ -53,10 +53,8 @@ bot.on('time', function() {
     }
 });
 
-do {
-
+while (1<2) {
 bot.on('spawn',function() {
     connected=1;
 });
-
-} while (true);
+}
